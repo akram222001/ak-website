@@ -45,6 +45,9 @@ import vpsLogo from './assets/education_logo/bseb.webp';
 import escortskubotatLogo from './assets/work_logo/escortskubota.png';
 import tsLogo from './assets/work_logo/TS.png';
 import cktrecLogo from './assets/work_logo/kct.png';
+import etbriLogo from './assets/work_logo/etBricraft.png';
+import sssLogo from './assets/work_logo/sss.png';
+import virotronLogo from './assets/work_logo/virotron.png';
 // import taskremLogo from './assets/work_logo/task_rem.png';
 
 
@@ -194,7 +197,7 @@ export const SkillsInfo = [
       description:
         "Contributed to the development of the Escorts Kubota corporate website, handling both frontend UI and backend functionality. Developed responsive interfaces, integrated backend logic, and ensured optimal performance and seamless user experience.",
       image: escortskubotatLogo,
-      tags: ["HTML", "CSS", "JavaScript", "Next JS","Node.js","Api Integration","Tailwind CSS","Shadcn/ui","MySQL"],
+      tags: ["HTML", "CSS", "JavaScript","React.js","Next JS","Node.js","Api Integration","Tailwind CSS","Shadcn/ui","MySQL"],
       github: "https://github.com/akram222001",
       webapp: "https://www.escortskubota.com/",
     },
@@ -204,7 +207,7 @@ export const SkillsInfo = [
       description:
         "Developed both frontend and backend for the Technovatic Solutions brand website at BytesBrick. Built responsive user interfaces, implemented form APIs, and ensured seamless functionality and optimal performance.",
       image: tsLogo,
-      tags: ["HTML", "CSS", "JavaScript","Next JS", "Node.js", "MySQL", "Express", "Tailwind CSS", "Shadcn/ui"],
+      tags: ["HTML", "CSS", "JavaScript","React.js","Next JS", "Node.js", "MySQL", "Express", "Tailwind CSS", "Shadcn/ui"],
       github: "https://github.com/akram222001",
       webapp: "https://technovaticsolutions.com/",
     },
@@ -218,8 +221,38 @@ export const SkillsInfo = [
       github: "https://github.com/akram222001",
       webapp: "https://collegeketashanbaaz.in/",
     },
+    {
+      id: 3,
+      title: "etBri",
+      description:
+        "I worked on the frontend development of ETBRI, a jewelry e-commerce website, focusing on core product features and responsive UI. I built product listing and detail pages with filtering, sorting, image galleries, cart, and wishlist functionality to enhance the shopping experience. Additionally, I implemented UI modifications, product zooming, and video support to make product showcases more interactive and engaging.",
+      image: etbriLogo,
+      tags: ["HTML", "CSS", "JavaScript","React.js","Next JS", "Tailwind css","Responsive Design"],
+      github: "https://github.com/akram222001",
+      webapp: "https://craftmyjewelry.com/",
+    },
+    {
+      id: 4,
+      title: "South Side Story",
+      description:
+        "I worked on the frontend development of SSS, adding a section for another state to display upcoming singers. I integrated singer images, social media links, and enhanced the UI to provide a more engaging and visually appealing experience.",
+      image: sssLogo,
+      tags: ["HTML", "CSS","PHP","Responsive Design"],
+      github: "https://github.com/akram222001",
+      webapp: "https://www.southsidestory.in/",
+    },
+     {
+      id: 5,
+      title: "Virotrone Solar Pannel Systems",
+      description:
+        "I worked on the frontend development of Virotrone, a solar panel systems website. I enhanced the UI Improved responsiveness and user experience across devices. ",
+      image: virotronLogo,
+      tags: ["HTML", "CSS","JavaScript","React.js","Nextjs","Tailwind CSS","Responsive Design"],
+      github: "https://github.com/akram222001",
+      webapp: "https://virotron.in/",
+    },
     // {
-    //   id: 3,
+    //   id: 4,
     //   title: "Email Validator NPM Package",
     //   description:
     //     "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
