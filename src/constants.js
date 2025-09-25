@@ -48,6 +48,9 @@ import cktrecLogo from './assets/work_logo/kct.png';
 import etbriLogo from './assets/work_logo/etBricraft.png';
 import sssLogo from './assets/work_logo/sss.png';
 import virotronLogo from './assets/work_logo/virotron.png';
+import cmsescortskubotatLogo from './assets/work_logo/eklcms.png';
+import blinketLogo from './assets/work_logo/blinket.png';
+import criptoLogo from './assets/work_logo/crypto.png';
 // import taskremLogo from './assets/work_logo/task_rem.png';
 
 
@@ -203,6 +206,16 @@ export const SkillsInfo = [
     },
     {
       id: 1,
+      title: "Escorts Kubota CMS Pannel",
+      description:
+        "I contributed to the development of the Escorts Kubota corporate website, working on frontend UI, backend functionality, and performance optimization. I also developed CMS features with CRUD operations to manage website authentication and content management efficiently.",
+      image: cmsescortskubotatLogo,
+      tags: ["HTML", "CSS", "JavaScript","React.js","Next JS","Node.js","Api Integration","Tailwind CSS","Shadcn/ui","MySQL"],
+      github: "https://github.com/akram222001",
+      webapp: "https://cms.escortskubota.com/",
+    },
+    {
+      id: 2,
       title: "Technovatic Solutions",
       description:
         "Developed both frontend and backend for the Technovatic Solutions brand website at BytesBrick. Built responsive user interfaces, implemented form APIs, and ensured seamless functionality and optimal performance.",
@@ -212,7 +225,7 @@ export const SkillsInfo = [
       webapp: "https://technovaticsolutions.com/",
     },
     {
-      id: 2,
+      id: 3,
       title: "College Ke Tashanbaaz",
       description:
         "Worked on the frontend development of Red FM’s College ke Tashanbaaz event website, creating responsive user interfaces to enhance participant engagement and ensure a smooth experience during college events.",
@@ -222,7 +235,7 @@ export const SkillsInfo = [
       webapp: "https://collegeketashanbaaz.in/",
     },
     {
-      id: 3,
+      id: 4,
       title: "etBri",
       description:
         "I worked on the frontend development of ETBRI, a jewelry e-commerce website, focusing on core product features and responsive UI. I built product listing and detail pages with filtering, sorting, image galleries, cart, and wishlist functionality to enhance the shopping experience. Additionally, I implemented UI modifications, product zooming, and video support to make product showcases more interactive and engaging.",
@@ -232,7 +245,7 @@ export const SkillsInfo = [
       webapp: "https://craftmyjewelry.com/",
     },
     {
-      id: 4,
+      id: 5,
       title: "South Side Story",
       description:
         "I worked on the frontend development of SSS, adding a section for another state to display upcoming singers. I integrated singer images, social media links, and enhanced the UI to provide a more engaging and visually appealing experience.",
@@ -242,7 +255,7 @@ export const SkillsInfo = [
       webapp: "https://www.southsidestory.in/",
     },
      {
-      id: 5,
+      id: 6,
       title: "Virotrone Solar Pannel Systems",
       description:
         "I worked on the frontend development of Virotrone, a solar panel systems website. I enhanced the UI Improved responsiveness and user experience across devices. ",
@@ -250,6 +263,26 @@ export const SkillsInfo = [
       tags: ["HTML", "CSS","JavaScript","React.js","Nextjs","Tailwind CSS","Responsive Design"],
       github: "https://github.com/akram222001",
       webapp: "https://virotron.in/",
+    },
+    {
+      id: 7,
+      title: "Blinket Clone Frontend",
+      description:
+        "I built the frontend of the Blinket Close project in React as a learning exercise, focusing on core concepts of component-based development and responsive UI. Through this project, I practiced implementing UI improvements and feature enhancements to strengthen my frontend skills.",
+      image: blinketLogo,
+      tags: ["HTML","CSS","React.js","Tailwind CSS","Responsive Design"],
+      github: "https://github.com/akram222001/Blinkit-clone-React",
+      webapp: "https://react-blinket-clone.netlify.app/",
+    },
+    {
+      id: 8,
+      title: "Crypto Fetch Api",
+      description:
+        "I developed a Crypto Fetch API project where I fetched real-time cryptocurrency data, displayed it in a responsive list, and implemented a search feature for easy filtering. I also added sorting functionality by price, market cap, and percentage changes to enhance data usability and user experience.",
+      image: criptoLogo,
+      tags: ["HTML","CSS","React.js","Tailwind CSS","Responsive Design"],
+      github: "https://github.com/akram222001/crypto-api-fetch-react-f4",
+      webapp: "https://fastidious-bubblegum-3b22d0.netlify.app/",
     },
     // {
     //   id: 4,
