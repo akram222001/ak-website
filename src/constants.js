@@ -188,7 +188,7 @@ export const SkillsInfo = [
       school: "Bihar School Examination Board Patna (BSEB)",
       date: "2016 - 2017",
       grade: "52%",
-      desc: "I completed my class 10 education from R J J S Chhaurahi Dalokhar, under the BSEB board, where I studied Physics, Chemistry, and Mathematics, Hindi, Science and English.",
+      desc: "I completed my class 10 education from R S S j High School Chhaurahi Dalokhar, under the BSEB board, where I studied Physics, Chemistry, and Mathematics, Hindi, Science and English.",
       degree: "BSEB(X)",
     },
   ];
