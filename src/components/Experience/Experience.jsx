@@ -4,7 +4,7 @@ const Experience = () => {
   return (
     <section
       id="experience"
-      className="mb:py-16 pb-16 font-sans bg-skills-gradient clip-path-custom-2"
+      className="container mb:py-16 pb-16 font-sans bg-skills-gradient clip-path-custom-2"
     >
       {/* Section Title */}
       <div className="text-center md:mb-16">

@@ -13,7 +13,7 @@ const Work = () => {
   };
 
   return (
-    <section id="work" className="font-sans relative">
+    <section id="work" className="container font-sans relative">
       {/* Section Title */}
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-white">PROJECTS</h2>
@@ -46,7 +46,7 @@ const Work = () => {
               <p className="text-gray-500 mb-4 pt-4 line-clamp-3">
                 {project.description}
               </p>
-              <div className="mb-4">
+              <div>
                 {project.tags.map((tag, index) => (
                   <span
                     key={index}
@@ -64,7 +64,7 @@ const Work = () => {
       {/* Modal Container */}
       {selectedProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90">
-          <div className="bg-gray-900 rounded-xl shadow-2xl w-[90%] max-w-3xl relative">
+          <div className="bg-gray-900 rounded-xl shadow-2xl w-[90%] max-w-2xl relative">
             {/* Close Button */}
             <div className="flex justify-end pr-6 py-2">
               <button

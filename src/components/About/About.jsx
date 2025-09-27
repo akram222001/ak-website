@@ -4,7 +4,7 @@ import profileImage from "../../assets/profile2.png";
 
 const About = () => {
   return (
-    <section id="about" className="py-24">
+    <section id="about" className="container py-24">
       <div className="md:container flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">

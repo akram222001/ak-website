@@ -4,7 +4,7 @@ import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import Work from "./components/Work/Work";
 import Education from "./components/Education/Education";
-// import Contact from "./components/Contact/Contact";
+import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import BlurBlob from "./components/BlurBlob";
 
@@ -29,13 +29,13 @@ const App = () => {
       {/* Main content */}
       <div className="relative">
         <Navbar />
-        <div className="container">
+        <div className="">
           <About />
           <Skills />
           <Experience />
           <Work />
           <Education />
-          {/* <Contact /> */}
+          <Contact />
         </div>
         <Footer />
       </div>
