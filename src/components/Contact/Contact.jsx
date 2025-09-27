@@ -83,14 +83,14 @@ const Contact = () => {
             {/* Social Links */}
             <div className="flex gap-5 mt-6 text-xl text-gray-300">
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/akram222001"
                 target="_blank"
                 className="hover:text-purple-400 transition"
               >
                 <FaLinkedin />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/akram222001"
                 target="_blank"
                 className="hover:text-purple-400 transition"
               >
