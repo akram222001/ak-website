@@ -38,13 +38,13 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`container fixed top-0 w-full z-50 transition duration-300 ${
+      className={`fixed top-0 w-full z-50 transition duration-300 ${
         isScrolled
           ? "bg-[#050414] bg-opacity-50 backdrop-blur-md shadow-md"
           : "bg-transparent"
       }`}
     >
-      <div className="text-white py-5 flex justify-between items-center">
+      <div className="container px-4 text-white py-5 flex justify-between items-center">
         {/* Logo */}
         <div className="text-sl md:text-xl font-bold tracking-wide cursor-pointer flex items-center gap-1">
           <span className="text-[#8245ec]">&lt;</span>

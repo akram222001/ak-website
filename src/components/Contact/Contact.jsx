@@ -46,9 +46,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="cotainer mx-auto py-16 bg-[#220533]">
+    <section id="contact" className="container py-16 bg-[#220533]">
       <ToastContainer />
-      <div className="container mx-auto">
+      <div className="">
         <h2 className="text-4xl font-bold text-center text-white mb-12">
           Get In Touch
         </h2>
