@@ -284,6 +284,16 @@ export const SkillsInfo = [
       github: "https://github.com/akram222001/crypto-api-fetch-react-f4",
       webapp: "https://fastidious-bubblegum-3b22d0.netlify.app/",
     },
+    {
+      id: 9,
+      title: "Star Wars Characters",
+      description:
+        "I developed a Star Wars Characters Fetch API project where I fetched Image and its data data, displayed it in a responsive list, and implemented a search feature for easy filtering data usability and user experience.",
+      image: criptoLogo,
+      tags: ["HTML","CSS","React.js","Tailwind CSS","Responsive Design"],
+      github: "https://github.com/akram222001/sw-characters",
+      webapp: "https://akram222001.github.io/sw-characters/",
+    },
     // {
     //   id: 4,
     //   title: "Email Validator NPM Package",
