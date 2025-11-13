@@ -51,6 +51,7 @@ import virotronLogo from './assets/work_logo/virotron.png';
 import cmsescortskubotatLogo from './assets/work_logo/eklcms.png';
 import blinketLogo from './assets/work_logo/blinket.png';
 import criptoLogo from './assets/work_logo/crypto.png';
+import swcLogo from './assets/work_logo/swc.png';
 // import taskremLogo from './assets/work_logo/task_rem.png';
 
 
@@ -289,7 +290,7 @@ export const SkillsInfo = [
       title: "Star Wars Characters",
       description:
         "I developed a Star Wars Characters Fetch API project where I fetched Image and its data data, displayed it in a responsive list, and implemented a search feature for easy filtering data usability and user experience.",
-      image: criptoLogo,
+      image: swcLogo,
       tags: ["HTML","CSS","React.js","Tailwind CSS","Responsive Design"],
       github: "https://github.com/akram222001/sw-characters",
       webapp: "https://akram222001.github.io/sw-characters/",
