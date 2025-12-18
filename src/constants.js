@@ -197,6 +197,16 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
+      title: "HomeSpot",
+      description:
+        "HomeSpot is a full-stack real estate web application designed to help users explore, list, and manage properties seamlessly. The platform allows users to browse property listings with detailed descriptions, images, pricing, and location details. It also includes secure user authentication, property management features, and a responsive UI optimized for all devices.",
+      image: escortskubotatLogo,
+      tags: ["HTML", "CSS", "JavaScript","React.js","Next JS","Node.js","Api Integration","Tailwind CSS","Shadcn/ui","MondoDB"],
+      github: "https://github.com/akram222001/Real-Estate",
+      webapp: "https://homespots.netlify.app/",
+    },
+    {
+      id: 0,
       title: "Escorts Kubota",
       description:
         "Contributed to the development of the Escorts Kubota corporate website, handling both frontend UI and backend functionality. Developed responsive interfaces, integrated backend logic, and ensured optimal performance and seamless user experience.",

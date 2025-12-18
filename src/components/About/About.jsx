@@ -37,14 +37,14 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Web Developer with 1.5 years of experience in building
+            Web Developer with 1.3 years of experience in building
             scalable web applications. Proficient in front-end and back-end
             development, specializing in the MERN stack and modern technologies
             to deliver seamless user experiences and efficient solutions.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1Hk2AICQt8MEjHRWH7wI8OUc4t9AQet6T/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xv6YT8zY7dUNRDGO3CzuOofQj2hUAeVL/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-2 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
