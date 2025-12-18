@@ -42,6 +42,7 @@ import manuuLogo from './assets/education_logo/malana-azad-university-logo.jpg';
 import vpsLogo from './assets/education_logo/bseb.webp';
 
 // Project Section Logo's
+import HomeSpotLogo from './assets/work_logo/Homespot.png';
 import escortskubotatLogo from './assets/work_logo/escortskubota.png';
 import tsLogo from './assets/work_logo/TS.png';
 import cktrecLogo from './assets/work_logo/kct.png';
@@ -200,7 +201,7 @@ export const SkillsInfo = [
       title: "HomeSpot",
       description:
         "HomeSpot is a full-stack real estate web application designed to help users explore, list, and manage properties seamlessly. The platform allows users to browse property listings with detailed descriptions, images, pricing, and location details. It also includes secure user authentication, property management features, and a responsive UI optimized for all devices.",
-      image: escortskubotatLogo,
+      image: HomeSpotLogo,
       tags: ["HTML", "CSS", "JavaScript","React.js","Next JS","Node.js","Api Integration","Tailwind CSS","Shadcn/ui","MondoDB"],
       github: "https://github.com/akram222001/Real-Estate",
       webapp: "https://homespots.netlify.app/",
