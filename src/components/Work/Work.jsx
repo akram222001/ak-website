@@ -30,8 +30,18 @@ const Work = () => {
           <div
             key={project.id}
             onClick={() => handleOpenModal(project)}
-            className="border border-white bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300"
+            className={`relative border bg-gray-900 backdrop-blur-md rounded-2xl shadow-2xl overflow-hidden cursor-pointer hover:shadow-purple-500/50 hover:-translate-y-2 transition-transform duration-300 ${
+              project.featured
+                ? "border-purple-500 ring-2 ring-purple-500 shadow-purple-500/50"
+                : "border-white"
+            }`}
           >
+            {/* Featured Badge */}
+            {project.featured && (
+              <span className="absolute top-3 left-3 z-10 bg-purple-600 text-white text-xs font-bold uppercase tracking-wide rounded-full px-3 py-1 shadow-lg">
+                ★ My Agency
+              </span>
+            )}
             <div className="p-1">
               <img
                 src={project.image}

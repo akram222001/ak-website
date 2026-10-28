@@ -1,10 +1,4 @@
-import {
-  FaFacebook,
-  FaTwitter,
-  FaLinkedin,
-  FaInstagram,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaLinkedin, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   // Smooth scroll function
@@ -44,20 +38,8 @@ const Footer = () => {
         <div className="flex flex-wrap justify-center space-x-4 mt-6">
           {[
             {
-              icon: <FaFacebook />,
-              link: "https://www.facebook.com/share/16MbG2GrgL/",
-            },
-            {
-              icon: <FaTwitter />,
-              link: "https://x.com/akram_ansarii?t=PCLW4jAJzM97L69VX5NOig&s=09",
-            },
-            {
               icon: <FaLinkedin />,
-              link: "https://www.linkedin.com/in/akram-ansari-4a3462217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ",
-            },
-            {
-              icon: <FaInstagram />,
-              link: "https://www.instagram.com/er_akramansari?utm_source=qr&igsh=NGVjOHppY205dzlj ",
+              link: "https://www.linkedin.com/in/akram222001/",
             },
             {
               icon: <FaYoutube />,

@@ -35,6 +35,8 @@ import postgreLogo from './assets/tech_logo/postgre.png';
 // Experience Section Logo's
 import acciojobLogo from './assets/company_logo/acciojob_logo.svg';
 import bbLogo from './assets/company_logo/logo2.png';
+import tryidolLogo from './assets/company_logo/tryidol_logo.png';
+import imdigitalLogo from './assets/company_logo/imdigital_logo.png';
 // import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
@@ -42,6 +44,7 @@ import manuuLogo from './assets/education_logo/malana-azad-university-logo.jpg';
 import vpsLogo from './assets/education_logo/bseb.webp';
 
 // Project Section Logo's
+import asnitLogo from './assets/work_logo/asnit.png';
 import HomeSpotLogo from './assets/work_logo/Homespot.png';
 import escortskubotatLogo from './assets/work_logo/escortskubota.png';
 import tsLogo from './assets/work_logo/TS.png';
@@ -141,10 +144,10 @@ export const SkillsInfo = [
     {
       id: 1,
       img: bbLogo,
-      role: "Web Developments",
-      company: "BytecBrick Pvt. Ltd.",
-      date: "May 2024 - Present",
-      desc: "Contributed to full-stack projects, handling frontend and backend development using Morden Technology Collaborated with the team to deliver responsive, high-performance web applications with enhanced user experience.",
+      role: "Web Developer",
+      company: "BytesBrick Infosystems Pvt. Ltd.",
+      date: "May 2024 - 1.3 Years | Full-Time, On-Site",
+      desc: "Worked full-time on-site on real-world client projects, handling both frontend and backend development. Built responsive UIs and reusable components, integrated REST APIs, and collaborated with the team to deliver reliable, high-performance web applications.",
       skills: [
         "HTML",
         "CSS",
@@ -161,6 +164,45 @@ export const SkillsInfo = [
         "Bitbucket",
         "SQL",
         "MySQL",
+      ],
+    },
+    {
+      id: 2,
+      img: tryidolLogo,
+      role: "Software Engineer",
+      company: "Tryidol Technologies",
+      date: "3 Months | Remote",
+      desc: "Worked remotely as a Software Engineer, developing frontend features with React.js and Next.js, integrating APIs, and building reusable UI components while collaborating with backend services.",
+      skills: [
+        "React JS",
+        "Next JS",
+        "JavaScript",
+        "TypeScript",
+        "Tailwind CSS",
+        "REST APIs",
+        "Git",
+        "GitHub",
+      ],
+    },
+    {
+      id: 3,
+      img: imdigitalLogo,
+      role: "Frontend Developer",
+      company: "IM Digital Solutions",
+      date: "Present",
+      desc: "Primarily focused on frontend development using React.js, Next.js, JavaScript, and TypeScript. Also contributing to backend development and CMS integrations using Payload CMS, including API integration, authentication, role-based access control, and file uploads.",
+      skills: [
+        "React JS",
+        "Next JS",
+        "JavaScript",
+        "TypeScript",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Payload CMS",
+        "Node JS",
+        "REST APIs",
+        "MongoDB",
+        "Git",
       ],
     },
   ];
@@ -196,6 +238,17 @@ export const SkillsInfo = [
   ];
   
   export const projects = [
+    {
+      id: "asnit",
+      featured: true,
+      title: "ASNIT Agency",
+      description:
+        "ASNIT is my freelance web development agency — agency quality at a freelancer price. I designed and built the complete website to showcase services, projects, and pricing for startups and small businesses, with fast, mobile-friendly pages, fixed-price quotes, and a direct path to start a project.",
+      image: asnitLogo,
+      tags: ["Next JS", "React.js", "JavaScript", "Tailwind CSS", "Responsive Design", "SEO", "UI/UX Design"],
+      github: "https://github.com/akram222001",
+      webapp: "https://asnit-frontend.vercel.app",
+    },
     {
       id: 0,
       title: "HomeSpot",

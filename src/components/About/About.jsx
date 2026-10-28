@@ -21,10 +21,10 @@ const About = () => {
             <span className="text-white">I am a </span>
             <ReactTypingEffect
               text={[
-                "Fullstack Developer",
-                "Web Developer",
-                "UI/UX Designer",
-                "Coder",
+                "Frontend Developer",
+                "React.js Developer",
+                "Next.js Developer",
+                "Full-Stack Developer",
               ]}
               speed={100}
               eraseSpeed={50}
@@ -37,10 +37,12 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Web Developer with 1.3 years of experience in building
-            scalable web applications. Proficient in front-end and back-end
-            development, specializing in the MERN stack and modern technologies
-            to deliver seamless user experiences and efficient solutions.
+            Frontend-focused Web Developer with 2+ years of professional
+            experience building responsive, scalable, and production-ready web
+            applications. Currently working as a Frontend Developer at IM
+            Digital Solutions with React.js, Next.js, JavaScript, and
+            TypeScript, while also contributing to backend development and CMS
+            integrations using Payload CMS.
           </p>
           {/* Resume Button */}
           <a
@@ -54,6 +56,18 @@ const About = () => {
             }}
           >
             DOWNLOAD CV
+          </a>
+          {/* Agency CTA Button */}
+          <a
+            href="https://asnit-frontend.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block text-[#c4a3ff] py-2 px-8 rounded-full mt-5 ml-0 sm:ml-4 text-lg font-bold border-2 border-[#8245ec] transition duration-300 transform hover:scale-105 hover:bg-[#8245ec] hover:text-white"
+            style={{
+              boxShadow: "0 0 2px #8245ec, 0 0 20px #8245ec",
+            }}
+          >
+            HIRE MY AGENCY →
           </a>
         </div>
         {/* Right Side */}
@@ -69,7 +83,7 @@ const About = () => {
           >
             <img
               src={profileImage}
-              alt="Tarun Kaushik"
+              alt="Akram Ansari"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>

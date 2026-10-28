@@ -31,11 +31,21 @@ const Experience = () => {
           >
             {/* Timeline Circle */}
             <div className="absolute left-[22px] sm:left-1/2 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
-              <img
-                src={experience.img}
-                alt={experience.company}
-                className="w-full h-full object-cover rounded-full"
-              />
+              {experience.img ? (
+                <img
+                  src={experience.img}
+                  alt={experience.company}
+                  className="w-full h-full object-cover rounded-full"
+                />
+              ) : (
+                <span className="text-white font-bold text-sm sm:text-lg">
+                  {experience.company
+                    .split(" ")
+                    .slice(0, 2)
+                    .map((word) => word[0])
+                    .join("")}
+                </span>
+              )}
             </div>
 
             {/* Content Section */}
